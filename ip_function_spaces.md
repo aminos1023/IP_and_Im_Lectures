@@ -174,7 +174,7 @@ $$\widetilde{u} = K^\dagger f.$$
 We know that for $f \in \mathcal{D}(K^\dagger)$ the minimum-norm solution $\widetilde{u} \in \mathcal{N}(K)^\perp$ exists and unique. Using the fact that $K\widetilde{u} = P_{\overline{\mathcal{R}(K)}}f$ (due to the \textit{mimimum-residual} solution property) and the M-R equations, we have $\widetilde{u} = (I - P_{\mathcal{N}}(K))\widetilde{u} = K^\dagger K\widetilde{u} = K^\dagger P_{\overline{\mathcal{R}(K)}}f = K^\dagger K K^\dagger f = K^\dagger f$.
 ```
 
-When defining the the solution through the M-P pseudo-inverse, we have existence uniqueness of the minimum-norm to {eq}`minres`. However, we cannot expect stability in general. For this, we would need $K^{\dagger}$ to be continuous. To see this, consider noisy data $f^{\delta} = f + e$ with $\|e\|\leq \delta$. For stability of the solution we need to bound the difference between the corresponding solutions $\widetilde{u}$, $\widetilde{u}^\delta$:
+When defining the solution through the M-P pseudo-inverse, we have existence uniqueness of the minimum-norm to {eq}`minres`. However, we cannot expect stability in general. For this, we would need $K^{\dagger}$ to be continuous. To see this, consider noisy data $f^{\delta} = f + e$ with $\|e\|\leq \delta$. For stability of the solution we need to bound the difference between the corresponding solutions $\widetilde{u}$, $\widetilde{u}^\delta$:
 
 $$\|\widetilde{u} - \widetilde{u}^\delta\|_{\mathcal{U}} = \|K^{\dagger}e\|_{\mathcal{F}},$$
 
